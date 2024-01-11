@@ -2,4 +2,4 @@
 ## Ferrari Guan
 \
 
-Lab 1 encompassed the basics of a command line interface. The commands used were pwd, ls, cd, javac, and java. 
+Lab 1 encompassed the basics of a command line interface. The commands used were javac. java, pwd, ls, cd, and cat. 
