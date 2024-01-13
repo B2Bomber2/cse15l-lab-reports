@@ -6,7 +6,7 @@ Lab 1 encompassed the basics of a command line interface. The commands used were
 <br />
 ---------
 
-**The ```javac``` command: **
+**The** ```javac``` **command:**
 <br />
 When arguments are missing, 
 <br />
