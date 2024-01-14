@@ -34,6 +34,7 @@ Output: ```/home```
 The command ran in the ```/home``` directory. Since the command was used in the home directory, the output was ```/home```. The command did not produce an error because its intended application was used. Although a file was included as an input to the command, ```pwd``` only returns the current directory. 
 <br />
 <br />
+
 **The** ```ls``` **command:**
 <br />
 ```ls``` stands for "list". As the name suggests, this command returns a list of files and directories in the current directory as the output. 
@@ -61,6 +62,7 @@ Output:
 The command ran in the ```/home``` directory. Since the command was used in the home directory, the output was ```/home```. The command did not produce an error because its intended application was used. Although a file was included as an input to the command, ```pwd``` only returns the current directory. 
 <br />
 <br />
+
 **The** ```cd``` **command:**
 <br />
 ```cd``` stands for "change directory". As the name suggests, this command changes the directory or folder. When given an argument or input, the ```cd``` command will change your directory to the input directory.
@@ -86,10 +88,12 @@ Output: ```bash: cd: lecture1/Hello.java: Not a directory```
 <br />
 The command ran in the ```/home``` directory. Since the ```cd``` command only changes your directory, the output was ```bash: cd: lecture1/Hello.java: Not a directory``` /home/lecture1/Hello.java is a file. The command produced an error because a file was inputted as the argument instead of a directory. 
 <br />
-<br /> 
+<br />
 
+**The** ```cat``` **command:**
 <br />
 <br />
+
 **The** ```javac``` **and** ```java``` **commands:**
 <br />
 ```javac``` and ```java``` are commands used in the Java programming language. 
