@@ -21,7 +21,7 @@ The command ran in the ```/home``` directory. Since the command was used in the 
 <br />
 * Example 2: 
 <br />
-Command: ```[user@sahara ~]$ pwd lecture1```
+Command: ```[user@sahara ~]$ pwd lecture1/```
 <br />
 Output: ```/home```
 <br />
@@ -51,7 +51,7 @@ The command ran in the ```/home``` directory. Since nothing was inputted as an a
 <br />
 * Example 2: 
 <br />
-Command: ```[user@sahara ~]$ ls lecture1```
+Command: ```[user@sahara ~]$ ls lecture1/```
 <br />
 Output: ```Hello.class  Hello.java  messages  README```
 <br />
@@ -97,6 +97,30 @@ The command ran in the ```/home``` directory. Since the ```cd``` command only ch
 <br />
 
 **The** ```cat``` **command:**
+```cat``` stands for "concatenate". This command sticks all the characters of the input files together and returns them as the output. 
+* Example 1:
+<br />
+Command: ```[user@sahara ~]$ cat```
+<br />
+Output: 
+<br />
+The command ran in the ```/home``` directory. Since the ```cd``` command only changes your directory, an output was not produced. The command did not produce an error because nothing was inputted as the argument. Hence, the directory remained the same. 
+<br />
+* Example 2:
+<br />
+Command: ```[user@sahara ~]$ cat lecture1/```
+<br />
+Output: 
+<br />
+The command ran in the ```/home``` directory. Since the ```cd``` command only changes your directory, an output was not produced. However, the prompt changed to ```[user@sahara ~/lecture1]$```. The command did not produce an error because a valid directory was inputted as the argument.
+<br />
+* Example 3:
+<br />
+Command: ```[user@sahara ~]$ cat lecture1/Hello.java```
+<br />
+Output: 
+<br />
+The command ran in the ```/home``` directory. Since the ```cd``` command only changes your directory, the output was ```bash: cd: lecture1/Hello.java: Not a directory``` /home/lecture1/Hello.java is a file. The command produced an error because a file was inputted as the argument instead of a directory. 
 <br />
 <br />
 
