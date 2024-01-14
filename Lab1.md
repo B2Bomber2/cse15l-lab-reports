@@ -17,7 +17,8 @@ Command: ```[user@sahara ~]$ pwd```
 <br />
 Output: ```/home```
 <br />
-The command ran in the ```/home``` directory. Since the command was used in the home directory, the output was ```/home```. The command did not produce an error because its intended application was used. 
+The command ran in the ```/home``` directory. Since the command was used in the home directory, the output was ```/home```. The command did not produce an error because its intended application was used.
+<br />
 * Example 2: 
 <br />
 Command: ```[user@sahara ~]$ pwd lecture1```
@@ -25,6 +26,7 @@ Command: ```[user@sahara ~]$ pwd lecture1```
 Output: ```/home```
 <br />
 The command ran in the ```/home``` directory. Since the command was used in the home directory, the output was ```/home```. The command did not produce an error because its intended application was used. Although another directory was included as an input to the command, ```pwd``` only returns the current directory.
+<br />
 * Example 3: 
 <br />
 Command: ```[user@sahara ~]$ pwd lecture1/Hello.java```
@@ -46,6 +48,7 @@ Command: ```[user@sahara ~]$ ls```
 Output: 
 <br />
 The command ran in the ```/home``` directory. Since the only directory in the home directory is ```lecture1```, the output was ```lecture1```. The command did not produce an error because its intended application was used. 
+<br />
 * Example 2: 
 <br />
 Command: ```[user@sahara ~]$ ls lecture1```
@@ -53,6 +56,7 @@ Command: ```[user@sahara ~]$ ls lecture1```
 Output: 
 <br />
 The command ran in the ```/home``` directory. Since the command was used in the home directory, the output was ```/home```. The command did not produce an error because its intended application was used. Although another directory was included as an input to the command, ```pwd``` only returns the current directory.
+<br />
 * Example 3: 
 <br />
 Command: ```[user@sahara ~]$ ls lecture1/Hello.java```
@@ -73,6 +77,7 @@ Command: ```[user@sahara ~]$ cd```
 Output: N/A
 <br />
 The command ran in the ```/home``` directory. Since the ```cd``` command only changes your directory, an output was not produced. The command did not produce an error because nothing was inputted as the argument. Hence, the directory remained the same. 
+<br />
 * Example 2:
 <br />
 Command: ```[user@sahara ~]$ cd lecture1/```
@@ -80,6 +85,7 @@ Command: ```[user@sahara ~]$ cd lecture1/```
 Output: N/A
 <br />
 The command ran in the ```/home``` directory. Since the ```cd``` command only changes your directory, an output was not produced. However, the prompt changed to ```[user@sahara ~/lecture1]$```. The command did not produce an error because a valid directory was inputted as the argument.
+<br />
 * Example 3:
 <br />
 Command: ```[user@sahara ~]$ cd lecture1/Hello.java```
