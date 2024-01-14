@@ -24,14 +24,14 @@ Command: ```[user@sahara ~]$ pwd lecture1```
 <br />
 Output: ```/home```
 <br />
-The command ran in the ```home``` directory. Since the command was used in the home directory, the output was ```/home```. The command did not produce an error because its intended application was used. Although another directory was included as an input to the command, ```pwd``` only returns the current directory.
+The command ran in the ```/home``` directory. Since the command was used in the home directory, the output was ```/home```. The command did not produce an error because its intended application was used. Although another directory was included as an input to the command, ```pwd``` only returns the current directory.
 * Example 2: 
 <br />
 Command: ```[user@sahara ~]$ pwd lecture1/Hello.java```
 <br />
 Output: ```/home```
 <br />
-The command ran in the ```home``` directory. Since the command was used in the home directory, the output was ```/home```. The command did not produce an error because its intended application was used. Although a file was included as an input to the command, ```pwd``` only returns the current directory. 
+The command ran in the ```/home``` directory. Since the command was used in the home directory, the output was ```/home```. The command did not produce an error because its intended application was used. Although a file was included as an input to the command, ```pwd``` only returns the current directory. 
 <br />
 <br />
 **The** ```cd``` **command:**
@@ -39,18 +39,31 @@ The command ran in the ```home``` directory. Since the command was used in the h
 ```cd``` stands for "change directory". As the name suggests, this command changes the directory or folder. When given an argument or input, the ```cd``` command will change your directory to the input directory.
 * Example 1:
 <br />
-```[user@sahara ~]$ cd```
+Command: ```[user@sahara ~]$ cd```
 <br />
-Nothing is returned as an output.
+Output: N/A
+<br />
+The command ran in the ```/home``` directory. Since the ```cd``` command only changes your directory, an output was not produced. The command did not produce an error because nothing was inputted as the argument. Hence, the directory remained the same. 
 * Example 2:
-* <br />
-```[user@sahara ~]$ cd 
+<br />
+Command: ```[user@sahara ~]$ cd lecture1/```
+<br />
+Output: N/A
+<br />
+The command ran in the ```/home``` directory. Since the ```cd``` command only changes your directory, an output was not produced. However, the prompt changed to ```[user@sahara ~/lecture1]$```. The command did not produce an error because a valid directory was inputted as the argument.
+* Example 3:
+<br />
+Command: ```[user@sahara ~]$ cd lecture1/Hello.java```
+<br />
+Output: ```bash: cd: lecture1/Hello.java: Not a directory```
+<br />
+The command ran in the ```/home``` directory. Since the ```cd``` command only changes your directory, the output was ```bash: cd: lecture1/Hello.java: Not a directory``` /home/lecture1/Hello.java is a file. The command produced an error because a file was inputted as the argument instead of a directory. 
 <br />
 <br /> 
 
 <br />
 <br />
-**The** ```javac``` **command:**
+**The** ```javac``` **and** ```java``` **commands:**
 <br />
-When arguments are missing, 
+```javac``` and ```java``` are commands used in the Java programming language. 
 <br />
