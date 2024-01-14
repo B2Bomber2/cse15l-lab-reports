@@ -3,7 +3,7 @@ Ferrari Guan
 <br />
 ## Introduction  
 <br />
-Lab 1 encompassed the basics of a command line interface. A command line interface is typically used in a terminal or PowerShell. The commands used were javac, java, pwd, ls, cd, and cat. The command ```git clone https://github.com/ucsd-cse15l-f23/lecture1``` added a directory called ```lecture1``` that contains a java file named ```Hello.java```, a directory named ```messages```, and a file named ```README```. 
+Lab 1 encompassed the basics of a command line interface. A command line interface is typically used in a terminal or PowerShell. The commands used were ```javac```, ```java```, ```pwd```, ```ls```, ```cd```, and ```cat```. The command ```git clone https://github.com/ucsd-cse15l-f23/lecture1``` added a directory called ```lecture1``` that contains a java file named ```Hello.java```, a directory named ```messages```, and a file named ```README```. 
 <br />
 ## The Commands 
 <br />
@@ -128,3 +128,38 @@ The command ran in the ```/home``` directory. Since the ```cd``` command only ch
 <br />
 ```javac``` and ```java``` are commands used in the Java programming language. 
 <br />
+* Example 1:
+<br />
+Command: 
+<br />
+```[user@sahara ~]$ javac```
+<br />
+```[user@sahara ~]$ java```
+<br />
+Output: 
+<br />
+The command ran in the ```/home``` directory. Since the ```cd``` command only changes your directory, an output was not produced. The command did not produce an error because nothing was inputted as the argument. Hence, the directory remained the same. 
+<br />
+* Example 2:
+<br />
+Command:
+<br />
+```[user@sahara ~]$ javac lecture1/```
+<br />
+```[user@sahara ~]$ java lecture1/```
+<br />
+Output: 
+<br />
+The command ran in the ```/home``` directory. Since the ```cd``` command only changes your directory, an output was not produced. However, the prompt changed to ```[user@sahara ~/lecture1]$```. The command did not produce an error because a valid directory was inputted as the argument.
+<br />
+* Example 3:
+<br />
+Command:
+<br />
+```[user@sahara ~]$ javac lecture1/Hello.java```
+<br />
+```[user@sahara ~]$ java lecture1/Hello.class```
+<br />
+Output: 
+<br />
+The command ran in the ```/home``` directory. Since the ```cd``` command only changes your directory, the output was ```bash: cd: lecture1/Hello.java: Not a directory``` /home/lecture1/Hello.java is a file. The command produced an error because a file was inputted as the argument instead of a directory. 
