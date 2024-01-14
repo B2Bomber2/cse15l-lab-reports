@@ -3,7 +3,7 @@ Ferrari Guan
 <br />
 ## Introduction  
 <br />
-Lab 1 encompassed the basics of a command line interface. A command line interface is typically used in a terminal or PowerShell. The commands used were javac, java, pwd, ls, cd, and cat. The command ```git clone https://github.com/ucsd-cse15l-f23/lecture1``` added a java file named ```Hello.java```, a directory named ```messages```, and a file named ```README```. 
+Lab 1 encompassed the basics of a command line interface. A command line interface is typically used in a terminal or PowerShell. The commands used were javac, java, pwd, ls, cd, and cat. The command ```git clone https://github.com/ucsd-cse15l-f23/lecture1``` added a directory called ```lecture1``` that contains a java file named ```Hello.java```, a directory named ```messages```, and a file named ```README```. 
 <br />
 ## The Commands 
 <br />
@@ -39,31 +39,31 @@ The command ran in the ```/home``` directory. Since the command was used in the 
 
 **The** ```ls``` **command:**
 <br />
-```ls``` stands for "list". As the name suggests, this command returns a list of files and directories in the current directory as the output. 
+```ls``` stands for "list". As the name suggests, this command returns a list of files and directories in the input directory as the output. 
 <br />
 * Example 1: 
 <br />
 Command: ```[user@sahara ~]$ ls```
 <br />
-Output: 
+Output: ```lecture1```
 <br />
-The command ran in the ```/home``` directory. Since the only directory in the home directory is ```lecture1```, the output was ```lecture1```. The command did not produce an error because its intended application was used. 
+The command ran in the ```/home``` directory. Since nothing was inputted as an argument and the only directory in the home directory is ```lecture1```, the output was ```lecture1```. The command did not produce an error because its intended application was used. 
 <br />
 * Example 2: 
 <br />
 Command: ```[user@sahara ~]$ ls lecture1```
 <br />
-Output: 
+Output: ```Hello.class  Hello.java  messages  README```
 <br />
-The command ran in the ```/home``` directory. Since the command was used in the home directory, the output was ```/home```. The command did not produce an error because its intended application was used. Although another directory was included as an input to the command, ```pwd``` only returns the current directory.
+The command ran in the ```/home``` directory. As mentioned previously, the ```lecture1``` contains a java file named ```Hello.java```, a directory named ```messages```, and a file named ```README```. Since the ```lecture1``` directory was inputted as an argument, the output was ```Hello.java  messages  README```. The command did not produce an error because its intended application was used.
 <br />
 * Example 3: 
 <br />
 Command: ```[user@sahara ~]$ ls lecture1/Hello.java```
 <br />
-Output: 
+Output: ```lecture1/Hello.java```
 <br />
-The command ran in the ```/home``` directory. Since the command was used in the home directory, the output was ```/home```. The command did not produce an error because its intended application was used. Although a file was included as an input to the command, ```pwd``` only returns the current directory. 
+The command ran in the ```/home``` directory. Since the ```lecture1/Hello.java``` file was inputted as an argument, the output was ```lecture1/Hello.java``` because ```lecture1/Hello.java``` is the only file in ```lecture1/Hello.java```. The command did not produce an error because its intended application was used.
 <br />
 <br />
 
