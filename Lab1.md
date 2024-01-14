@@ -25,11 +25,38 @@ Command: ```[user@sahara ~]$ pwd lecture1```
 Output: ```/home```
 <br />
 The command ran in the ```/home``` directory. Since the command was used in the home directory, the output was ```/home```. The command did not produce an error because its intended application was used. Although another directory was included as an input to the command, ```pwd``` only returns the current directory.
-* Example 2: 
+* Example 3: 
 <br />
 Command: ```[user@sahara ~]$ pwd lecture1/Hello.java```
 <br />
 Output: ```/home```
+<br />
+The command ran in the ```/home``` directory. Since the command was used in the home directory, the output was ```/home```. The command did not produce an error because its intended application was used. Although a file was included as an input to the command, ```pwd``` only returns the current directory. 
+<br />
+<br />
+**The** ```ls``` **command:**
+<br />
+```ls``` stands for "list". As the name suggests, this command returns a list of files and directories in the current directory as the output. 
+<br />
+* Example 1: 
+<br />
+Command: ```[user@sahara ~]$ ls```
+<br />
+Output: 
+<br />
+The command ran in the ```/home``` directory. Since the only directory in the home directory is ```lecture1```, the output was ```lecture1```. The command did not produce an error because its intended application was used. 
+* Example 2: 
+<br />
+Command: ```[user@sahara ~]$ ls lecture1```
+<br />
+Output: 
+<br />
+The command ran in the ```/home``` directory. Since the command was used in the home directory, the output was ```/home```. The command did not produce an error because its intended application was used. Although another directory was included as an input to the command, ```pwd``` only returns the current directory.
+* Example 3: 
+<br />
+Command: ```[user@sahara ~]$ ls lecture1/Hello.java```
+<br />
+Output: 
 <br />
 The command ran in the ```/home``` directory. Since the command was used in the home directory, the output was ```/home```. The command did not produce an error because its intended application was used. Although a file was included as an input to the command, ```pwd``` only returns the current directory. 
 <br />
