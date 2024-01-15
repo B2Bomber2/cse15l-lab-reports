@@ -120,7 +120,9 @@ Command: ```[user@sahara ~]$ cat lecture1/Hello.java/```
 <br />
 Output:
 <br />
-```import java.io.IOException;
+
+```
+import java.io.IOException;
 import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
 import java.nio.file.Path;
@@ -130,7 +132,8 @@ public class Hello {
     String content = Files.readString(Path.of(args[0]), StandardCharsets.UTF_8);    
     System.out.println(content);
   }
-}```
+}
+```
 
 <br />
 The command ran in the ```/home``` directory. Since the ```cat``` command returns the contents of its input files, the contents of the ```/home/lecture1/Hello.java``` file were returned as the output. The command did not produce an error because its intended application was used.
