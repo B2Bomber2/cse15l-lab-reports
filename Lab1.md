@@ -25,7 +25,7 @@ Command: ```[user@sahara ~]$ pwd lecture1/```
 <br />
 Output: ```/home```
 <br />
-The command ran in the ```/home``` directory. Since the command was used in the home directory, the output was ```/home```. The command did not produce an error because its intended application was used. Although another directory was included as an input to the command, ```pwd``` only returns the current directory.
+The command ran in the ```/home``` directory. Since the command was used in the home directory, the output was ```/home```. The command did not produce an error because its intended application was used. Although another directory was included as an input argument to the command, ```pwd``` only returns the current directory.
 <br />
 * Example 3: 
 <br />
@@ -33,7 +33,7 @@ Command: ```[user@sahara ~]$ pwd lecture1/Hello.java/```
 <br />
 Output: ```/home```
 <br />
-The command ran in the ```/home``` directory. Since the command was used in the home directory, the output was ```/home```. The command did not produce an error because its intended application was used. Although a file was included as an input to the command, ```pwd``` only returns the current directory. 
+The command ran in the ```/home``` directory. Since the command was used in the home directory, the output was ```/home```. The command did not produce an error because its intended application was used. Although a file was included as an input argument to the command, ```pwd``` only returns the current directory. 
 <br />
 <br />
 
@@ -55,7 +55,7 @@ Command: ```[user@sahara ~]$ ls lecture1/```
 <br />
 Output: ```Hello.java  messages  README```
 <br />
-The command ran in the ```/home``` directory. As mentioned previously, the ```lecture1``` contains a java file named ```Hello.java```, a directory named ```messages```, and a file named ```README```. Since the ```lecture1``` directory was inputted as an argument, the output was ```Hello.java  messages  README```. The command did not produce an error because its intended application was used.
+The command ran in the ```/home``` directory. As mentioned previously, the ```lecture1``` directory contains a java file named ```Hello.java```, a directory named ```messages```, and a file named ```README```. Since the ```lecture1``` directory was inputted as an argument, the output was ```Hello.java  messages  README```. The command did not produce an error because its intended application was used.
 <br />
 * Example 3: 
 <br />
@@ -69,7 +69,7 @@ The command ran in the ```/home``` directory. Since the ```lecture1/Hello.java``
 
 **The** ```cd``` **command:**
 <br />
-```cd``` stands for "change directory". As the name suggests, this command changes the directory or folder. When given an argument or input, the ```cd``` command will change your directory to the input directory.
+```cd``` stands for "change directory". As the name suggests, this command changes the directory or folder. When given an input argument, the ```cd``` command will change your directory to the input directory.
 * Example 1:
 <br />
 Command: ```[user@sahara ~]$ cd```
@@ -97,7 +97,7 @@ The command ran in the ```/home``` directory. Since the ```cd``` command only ch
 <br />
 
 **The** ```cat``` **command:**
-```cat``` stands for "concatenate". This command sticks all the characters of the input files together and returns them as the output. In other words, the ```cat``` command uses a file as an input argument and outputs the contents as a combined string. 
+```cat``` stands for "concatenate". This command sticks all the characters of the input files together and returns them as the output. In other words, the ```cat``` command uses files as input arguments and outputs the contents as a combined string. 
 * Example 1:
 <br />
 Command: ```[user@sahara ~]$ cat```
@@ -134,12 +134,10 @@ public class Hello {
   }
 }
 ```
-
 <br />
 The command ran in the ```/home``` directory. Since the ```cat``` command returns the contents of its input files, the contents of the ```/home/lecture1/Hello.java``` file were returned as the output. The command did not produce an error because its intended application was used.
 <br />
 <br />
-
 **The** ```javac``` **and** ```java``` **commands:**
 <br />
 ```javac``` and ```java``` are commands used in the Java programming language. The ```javac``` command compiles a java file and converts it into a binary file. The ```java``` command runs the java binary file. 
