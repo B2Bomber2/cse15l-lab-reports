@@ -53,7 +53,7 @@ The command ran in the ```/home``` directory. Since nothing was inputted as an a
 <br />
 Command: ```[user@sahara ~]$ ls lecture1/```
 <br />
-Output: ```Hello.class  Hello.java  messages  README```
+Output: ```Hello.java  messages  README```
 <br />
 The command ran in the ```/home``` directory. As mentioned previously, the ```lecture1``` contains a java file named ```Hello.java```, a directory named ```messages```, and a file named ```README```. Since the ```lecture1``` directory was inputted as an argument, the output was ```Hello.java  messages  README```. The command did not produce an error because its intended application was used.
 <br />
@@ -97,22 +97,22 @@ The command ran in the ```/home``` directory. Since the ```cd``` command only ch
 <br />
 
 **The** ```cat``` **command:**
-```cat``` stands for "concatenate". This command sticks all the characters of the input files together and returns them as the output. 
+```cat``` stands for "concatenate". This command sticks all the characters of the input files together and returns them as the output. In other words, the ```cat``` command uses a file as an input argument and outputs the contents as a combined string. 
 * Example 1:
 <br />
 Command: ```[user@sahara ~]$ cat```
 <br />
-Output: 
+Output: ```bash: cat: No such file or directory```
 <br />
-The command ran in the ```/home``` directory. Since the ```cd``` command only changes your directory, an output was not produced. The command did not produce an error because nothing was inputted as the argument. Hence, the directory remained the same. 
+The command ran in the ```/home``` directory. Since the ```cat``` command returns the contents of its inputs, an error was produced as the output. As the error suggests, nothing was inputted as an input argument. 
 <br />
 * Example 2:
 <br />
 Command: ```[user@sahara ~]$ cat lecture1/```
 <br />
-Output: 
+Output: ```cat: lecture1/: Is a directory```
 <br />
-The command ran in the ```/home``` directory. Since the ```cd``` command only changes your directory, an output was not produced. However, the prompt changed to ```[user@sahara ~/lecture1]$```. The command did not produce an error because a valid directory was inputted as the argument.
+The command ran in the ```/home``` directory. Since the ```cat``` command returns the contents of its input files, an error was produced as the output. As the error suggests, a directory was inputted as an input argument instead of a file. 
 <br />
 * Example 3:
 <br />
