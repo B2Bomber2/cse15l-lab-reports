@@ -119,8 +119,21 @@ The command ran in the ```/home``` directory. Since the ```cat``` command return
 Command: ```[user@sahara ~]$ cat lecture1/Hello.java```
 <br />
 Output: 
+```
+import java.io.IOException;
+import java.nio.charset.StandardCharsets;
+import java.nio.file.Files;
+import java.nio.file.Path;
+
+public class Hello {
+  public static void main(String[] args) throws IOException {
+    String content = Files.readString(Path.of(args[0]), StandardCharsets.UTF_8);    
+    System.out.println(content);
+  }
+}
+```
 <br />
-The command ran in the ```/home``` directory. Since the ```cd``` command only changes your directory, the output was ```bash: cd: lecture1/Hello.java: Not a directory``` /home/lecture1/Hello.java is a file. The command produced an error because a file was inputted as the argument instead of a directory. 
+The command ran in the ```/home``` directory. Since the ```cat``` command returns the contents of its input files, the contents of the ```/home/lecture1/Hello.java``` file were returned as the output. The command did not produce an error because its intended application was used.
 <br />
 <br />
 
