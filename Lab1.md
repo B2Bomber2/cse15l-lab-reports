@@ -97,6 +97,7 @@ The command ran in the ```/home``` directory. Since the ```cd``` command only ch
 <br />
 
 **The** ```cat``` **command:**
+<br />
 ```cat``` stands for "concatenate". This command sticks all the characters of the input files together and returns them as the output. In other words, the ```cat``` command uses files as input arguments and outputs the contents as a combined string. 
 * Example 1:
 <br />
