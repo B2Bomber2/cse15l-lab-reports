@@ -135,5 +135,3 @@ public class Hello {
 ```
 <br />
 The command ran in the ```/home``` directory. Since the ```cat``` command returns the contents of its input files, the contents of the ```/home/lecture1/Hello.java``` file were returned as the output. The command did not produce an error because its intended application was used.
-<br />
-<br />
