@@ -369,7 +369,7 @@ Output: N/A
 <br />
 Command:
 ```
-cd lecture1/
+[user@sahara ~]$ cd lecture1/
 [user@sahara ~/lecture1]$ java Hello messages/en-us.txt/
 ```
 <br />
