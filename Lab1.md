@@ -92,7 +92,7 @@ Command: ```[user@sahara ~]$ cd lecture1/Hello.java/```
 <br />
 Output: ```bash: cd: lecture1/Hello.java: Not a directory```
 <br />
-The command ran in the ```/home``` directory. Since the ```cd``` command only changes your directory, the output was ```bash: cd: lecture1/Hello.java: Not a directory``` /home/lecture1/Hello.java is a file. The command produced an error because a file was inputted as the argument instead of a directory. 
+The command ran in the ```/home``` directory. Since the ```cd``` command only changes your directory, the output was ```bash: cd: lecture1/Hello.java: Not a directory``` because ```/home/lecture1/Hello.java``` is a file. The command produced an error because a file was inputted as the argument instead of a directory. 
 <br />
 <br />
 
