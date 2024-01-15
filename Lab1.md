@@ -118,7 +118,8 @@ The command ran in the ```/home``` directory. Since the ```cat``` command return
 <br />
 Command: ```[user@sahara ~]$ cat lecture1/Hello.java/```
 <br />
-Output: 
+Output:
+<br />
 ```
 import java.io.IOException;
 import java.nio.charset.StandardCharsets;
@@ -146,6 +147,7 @@ The command ran in the ```/home``` directory. Since the ```cat``` command return
 Command: ```[user@sahara ~]$ javac```
 <br />
 Output:
+<br />
 ```
 Usage: javac <options> <source files>
 where possible options include:
@@ -228,6 +230,7 @@ where possible options include:
 Command: ```[user@sahara ~]$ java```
 <br />
 Output: 
+<br />
 ```
 Usage: java [options] <mainclass> [args...]
            (to execute a class)
@@ -336,6 +339,7 @@ The command ran in the ```/home``` directory. Since the ```javac``` and ```java`
 Command: ```[user@sahara ~]$ javac lecture1/```
 <br />
 Output:
+<br />
 ```
 error: invalid flag: lecture1/
 Usage: javac <options> <source files>
@@ -345,12 +349,13 @@ use --help for a list of possible options
 Command: ```[user@sahara ~]$ java lecture1/```
 <br />
 Output:
+<br />
 ```
 Error: Could not find or load main class lecture1.
 Caused by: java.lang.ClassNotFoundException: lecture1.
 ```
 <br />
-The command ran in the ```/home``` directory. Since the ```cd``` command only changes your directory, an output was not produced. However, the prompt changed to ```[user@sahara ~/lecture1]$```. The command did not produce an error because a valid directory was inputted as the argument.
+The command ran in the ```/home``` directory. Since the ```javac``` and ```java``` are intended to be used on Java files, the output was an error. As the error suggests, ```/home/lecture1/``` is a directory instead of a Java file. 
 <br />
 * Example 3; proper usage:
 <br />
@@ -366,4 +371,4 @@ cd lecture1/
 <br />
 Output: ```Hello World!```
 <br />
-The command ran in the ```/home``` directory. Since the ```cd``` command only changes your directory, the output was ```bash: cd: lecture1/Hello.java: Not a directory``` /home/lecture1/Hello.java is a file. The command produced an error because a file was inputted as the argument instead of a directory. 
+The command ran in the ```/home``` directory. Since the ```javac``` command was used on a Java file, nothing was outputted. However, the ```Hello.class``` binary file was created in the ```/home/lecture1/``` directory. After changing to directory to ```/home/lecture1/```, the ```java``` command could be used on the ```Hello.class``` file. The ```Hello.class``` file takes in a text file as an input argument and returns the contents as the output. Hence, the output was ```Hello World!```.
