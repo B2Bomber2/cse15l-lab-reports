@@ -120,8 +120,7 @@ Command: ```[user@sahara ~]$ cat lecture1/Hello.java/```
 <br />
 Output:
 <br />
-```
-import java.io.IOException;
+```import java.io.IOException;
 import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
 import java.nio.file.Path;
