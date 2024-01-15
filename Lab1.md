@@ -120,6 +120,7 @@ Command: ```[user@sahara ~]$ cat lecture1/Hello.java/```
 <br />
 Output:
 <br />
+
 ```
 import java.io.IOException;
 import java.nio.charset.StandardCharsets;
@@ -133,6 +134,7 @@ public class Hello {
   }
 }
 ```
+
 <br />
 The command ran in the ```/home``` directory. Since the ```cat``` command returns the contents of its input files, the contents of the ```/home/lecture1/Hello.java``` file were returned as the output. The command did not produce an error because its intended application was used.
 <br />
@@ -148,6 +150,7 @@ Command: ```[user@sahara ~]$ javac```
 <br />
 Output:
 <br />
+
 ```
 Usage: javac <options> <source files>
 where possible options include:
@@ -226,11 +229,13 @@ Override location of upgradeable modules
 --version, -version Version information
 -Werror Terminate compilation if warnings occur
 ```
+
 <br />
 Command: ```[user@sahara ~]$ java```
 <br />
 Output: 
 <br />
+
 ```
 Usage: java [options] <mainclass> [args...]
 (to execute a class)
@@ -332,6 +337,7 @@ allow classes to depend on preview features of this release
 To specify an argument for a long option, you can use --<name>=<value> or
 --<name> <value>.
 ```
+
 <br />
 The command ran in the ```/home``` directory. Since the ```javac``` and ```java``` are intended to be used on Java files, a list of possible use cases was returned as the output. The command did not produce an error because a Java file was not inputted as an argument.
 * Example 2:
