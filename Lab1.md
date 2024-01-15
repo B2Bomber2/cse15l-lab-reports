@@ -130,11 +130,11 @@ The command ran in the ```/home``` directory. Since the ```cd``` command only ch
 <br />
 * Example 1:
 <br />
-Command: 
+Command: ```[user@sahara ~]$ javac```
 <br />
-```[user@sahara ~]$ javac```
+Output:
 <br />
-```[user@sahara ~]$ java```
+Command: ```[user@sahara ~]$ java```
 <br />
 Output: 
 <br />
@@ -142,23 +142,23 @@ The command ran in the ```/home``` directory. Since the ```cd``` command only ch
 <br />
 * Example 2:
 <br />
-Command:
+Command: ```[user@sahara ~]$ javac lecture1/```
 <br />
-```[user@sahara ~]$ javac lecture1/```
+Output:
 <br />
-```[user@sahara ~]$ java lecture1/```
+Command: ```[user@sahara ~]$ java lecture1/```
 <br />
-Output: 
+Output:
 <br />
 The command ran in the ```/home``` directory. Since the ```cd``` command only changes your directory, an output was not produced. However, the prompt changed to ```[user@sahara ~/lecture1]$```. The command did not produce an error because a valid directory was inputted as the argument.
 <br />
 * Example 3:
 <br />
-Command:
+Command: ```[user@sahara ~]$ javac lecture1/Hello.java```
 <br />
-```[user@sahara ~]$ javac lecture1/Hello.java```
+Output:
 <br />
-```[user@sahara ~]$ java lecture1/Hello.class```
+Command: ```[user@sahara ~]$ java lecture1/Hello.class```
 <br />
 Output: 
 <br />
