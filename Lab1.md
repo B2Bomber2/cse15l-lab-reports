@@ -113,7 +113,7 @@ Command: ```[user@sahara ~]$ cat lecture1/```
 <br />
 Output: ```cat: lecture1/: Is a directory```
 <br />
-The command ran in the ```/home``` directory. Since the ```cat``` command returns the contents of its input files, an error was produced as the output. As the error suggests, a directory was inputted as an input argument instead of a file. 
+The command ran in the ```/home``` directory. Since the ```cat``` command returns the contents of its input files, an error was produced as the output. As the error suggests, a directory was inputted as an argument instead of a file. 
 <br />
 * Example 3:
 <br />
