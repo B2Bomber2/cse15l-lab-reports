@@ -9,7 +9,7 @@ Ferrari Guan A17917695
 Lab 2 encompasses the basics of web servers, including Uniform Resource Locators (URLs) and Uniform Resource Identifiers (URIs). Secure Shell (ssh) was also introduced. During the lab sessions, students learned to log into the ssh for the UC San Diego eng6 cluster. 
 <br />
 
-# Chat Server
+# Part 1: Chat Server
 <br />
 
 The following is my code for ChatServer.java. 
@@ -72,3 +72,24 @@ class ChatServer{
 ```
 
 <br />
+<br />
+![Duolingo Appears](https://b2bomber2.github.io/cse15l-lab-reports/Photos/lab2-0.png)
+<br />
+
+* Which methods in your code are called?
+* What are the relevant arguments to those methods, and the values of any relevant fields of the class?
+* How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.
+
+<br />
+<br />
+![Ferrari Responds](https://b2bomber2.github.io/cse15l-lab-reports/Photos/lab2-1.png)
+<br />
+
+
+* Which methods in your code are called?
+* What are the relevant arguments to those methods, and the values of any relevant fields of the class?
+* How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.
+
+# Part 2: SSH
+<br />
+
