@@ -111,7 +111,7 @@ The image below shows me accessing the contents of a java file in the ieng6 SSH 
 
 # Part 3: Reflection
 <br /> 
-I learned about 
+I learned about SSH and how to manipulate content within a remote server. Although I have heard of SSH keys before, this was my first time learning how to generate one. Also, I learned how to create and transfer files between my own computer and a remote server. Overall, I learned a lot about web servers in this lab. 
 <br />
 <br />
 <br />
