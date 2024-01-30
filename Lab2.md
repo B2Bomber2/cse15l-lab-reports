@@ -76,9 +76,9 @@ class ChatServer{
 ![Duolingo Appears](https://b2bomber2.github.io/cse15l-lab-reports/Photos/lab2-0.png)
 <br />
 
-* Which methods in your code are called?
-* What are the relevant arguments to those methods, and the values of any relevant fields of the class?
-* How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.
+* The '''main''' method in the '''ChatServer''' class was called when the server started. After the path was inputted, the '''handleRequest''' method in the '''Handler''' class was called. 
+* The '''main''' method uses an integer argument as a port number in order to start a web server. The ```handleRequest``` method uses a URI argument to create a chat. The relevant fields are ```currentChat```, ```currentUser```, and ```currentContent```. 
+* In this request, ```currentUser``` changes to the user in the path and ```currentContent``` changes to the message string in the path. In this case, ```currentUser``` changes from null to ```Duolingo``` and ```currentContent``` changes to ```Have you finished your Spanish lesson today?```. Then, ```currentChat``` adds ```currentUser``` and ```currentContent``` to itself separated by a colon and line break character. So, ```currentChat``` becomes ```Duolingo: Have you finished your Spanish lesson today?\n```. Lastly, ```currentUser``` and ```currentContent``` are reverted back to their original values. 
 
 <br />
 <br />
