@@ -92,19 +92,21 @@ class ChatServer{
 
 # Part 2: SSH
 <br />
-The absolute path to the private key for my SSH key for logging into ieng6 on my computer is 
+As shown in the image below, the absolute path to the private key for my SSH key for logging into ieng6 on my computer is ```/Users/ferrariguan/.ssh/id_rsa```. 
 <br />
-!
+!(private key)[https://b2bomber2.github.io/cse15l-lab-reports/Photos/lab2-3.png]
+<br />
 
 <br />
-The absolute path to the public key for your SSH key for logging into ieng6 (this is the one you copied to your account on ieng6, so it should be a path on ieng6's file system)
+As shown in the image below, the absolute path to the public key for my SSH key for logging into ieng6 is ```/home/linux/ieng6/oce/5o/f1guan/.ssh/authorized_keys```.
 <br />
-!
+!(public key)[https://b2bomber2.github.io/cse15l-lab-reports/Photos/lab2-4.png]
+<br />
 
 <br />
-A terminal interaction where you log into your ieng6 account without being asked for a password.
+The image below shows me accessing the contents of a java file in the ieng6 SSH without my password. 
 <br />
-!
+!(SSH terminal)[https://b2bomber2.github.io/cse15l-lab-reports/Photos/lab2-5.png]
 <br />
 
 # Part 3: Reflection
