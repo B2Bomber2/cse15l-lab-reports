@@ -118,5 +118,6 @@ I learned about
 <br />
 <br />
 <br />
+Here is the full chat log if you are curious. 
 <br />
 ![Ferrari disappears](https://b2bomber2.github.io/cse15l-lab-reports/Photos/lab2-2.png)
