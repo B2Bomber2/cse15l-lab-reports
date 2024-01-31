@@ -104,7 +104,7 @@ As shown in the image below, the absolute path to the public key for my SSH key 
 <br />
 
 <br />
-The image below shows me accessing the contents of a java file in the ieng6 SSH without my password. 
+The image below shows me accessing the contents of a markdown file in the ieng6 SSH without my password. 
 <br />
 ![SSH terminal activities](https://b2bomber2.github.io/cse15l-lab-reports/Photos/lab2-5.png)
 <br />
