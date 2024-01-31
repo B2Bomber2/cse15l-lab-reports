@@ -6,7 +6,7 @@ Ferrari Guan A17917695
 
 # Introduction
 <br />
-Lab 2 encompasses the basics of web servers, including Uniform Resource Locators (URLs) and Uniform Resource Identifiers (URIs). Secure Shell (ssh) was also introduced. During the lab sessions, students learned to log into the ssh for the UC San Diego eng6 cluster. 
+Lab 2 encompasses the basics of web servers, including Uniform Resource Locators (URLs) and Uniform Resource Identifiers (URIs). Secure Shell (ssh) was also introduced. During the lab sessions, students learned to log into the ssh for the UC San Diego ieng6 cluster. 
 <br />
 
 # Part 1: Chat Server
