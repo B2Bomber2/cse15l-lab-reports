@@ -120,6 +120,6 @@ I learned about SSH and how to manipulate content within a remote server. Althou
 <br />
 <br />
 <br />
-Here is the full chat log if you are curious. 
+Here is the full chat log from part 1 if you are curious. 
 <br />
 ![Ferrari disappears](https://b2bomber2.github.io/cse15l-lab-reports/Photos/lab2-2.png)
