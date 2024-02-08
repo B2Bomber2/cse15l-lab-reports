@@ -1,15 +1,15 @@
-## Lab 2 Report: Servers and SSH Keys
+# Lab 2 Report: Servers and SSH Keys
 
 <br />
 Ferrari Guan A17917695
 <br />
 
-# Introduction
+## Introduction
 <br />
 Lab 2 encompasses the basics of web servers, including Uniform Resource Locators (URLs) and Uniform Resource Identifiers (URIs). Secure Shell (ssh) was also introduced. During the lab sessions, students learned to log into the ssh for the UC San Diego ieng6 cluster. 
 <br />
 
-# Part 1: Chat Server
+## Part 1: Chat Server
 <br />
 
 The following is my code for ChatServer.java. 
@@ -89,7 +89,7 @@ class ChatServer{
 * The ```main``` method uses an integer argument as a port number in order to start a web server. The ```handleRequest``` method uses a URI argument to create a chat. The relevant fields are ```currentChat```, ```currentUser```, and ```currentContent```. 
 * Similar to the previous use case, this request, ```currentUser``` changes to the user in the path and ```currentContent``` changes to the message string in the path. In this case, ```currentUser``` changes from null to ```Ferrari``` and ```currentContent``` changes to ```No, I have been doing my the CSE 15L lab report instead.```. Then, ```currentChat``` adds ```currentUser``` and ```currentContent``` to itself separated by a colon and line break character. So, ```currentChat``` becomes ```Ferrari: No, I have been doing my the CSE 15L lab report instead.\n```. Lastly, ```currentUser``` and ```currentContent``` are reverted back to their original values. 
 
-# Part 2: SSH
+## Part 2: SSH
 <br />
 As shown in the image below, the absolute path to the private key for my SSH key for logging into ieng6 on my computer is ```/Users/ferrariguan/.ssh/id_rsa```. 
 <br />
@@ -108,7 +108,7 @@ The image below shows me accessing the contents of a markdown file in the ieng6 
 ![SSH terminal activities](https://b2bomber2.github.io/cse15l-lab-reports/Photos/lab2-5.png)
 <br />
 
-# Part 3: Reflection
+## Part 3: Reflection
 <br /> 
 I learned about SSH and how to manipulate content within a remote server. Although I have heard of SSH keys before, this was my first time learning how to generate one. Also, I learned how to create and transfer files between my own computer and a remote server. Overall, I learned a lot about web servers in this lab. 
 <br />
