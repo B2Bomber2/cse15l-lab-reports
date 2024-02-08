@@ -3,4 +3,6 @@ Ferrari Guan A17917695
 
 ## Introduction
 
-<br/>
+<br />
+Lab 3 encompassed testing and debugging; command line manipulation, especially for finding files; and Bash scripting. 
+<br />
