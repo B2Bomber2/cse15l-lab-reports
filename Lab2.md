@@ -100,7 +100,7 @@ class ChatServer{
 
 * Since the web server is already running, only the ```handleRequest``` method in the ```Handler``` class was called in this case. 
 * The ```handleRequest``` method uses a URI argument to create a chat. The relevant class field is ```currentChat```.
-* Similar to the previous use case, ```currentChat``` adds ```currentUser``` and ```currentContent``` to itself separated by a colon and line break character. So, ```currentChat``` becomes ````Duolingo: Have you finished your Spanish lesson today?\n Ferrari: No, I have been doing my the CSE 15L lab report instead.\n```.  
+* Similar to the previous use case, ```currentChat``` adds ```currentUser``` and ```currentContent``` to itself separated by a colon and line break character. So, ```currentChat``` becomes ```Duolingo: Have you finished your Spanish lesson today?\n Ferrari: No, I have been doing my the CSE 15L lab report instead.\n```.  
 
 ## Part 2: SSH
 <br />
