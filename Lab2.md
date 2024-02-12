@@ -90,7 +90,7 @@ class ChatServer{
 <br />
 
 * The ```main``` method in the ```ChatServer``` class was called when the server started. After the path was inputted, the ```handleRequest``` method in the ```Handler``` class was called. 
-* The ```main``` method uses an integer argument as a port number in order to start a web server. The ```handleRequest``` method uses a URI argument to create a chat. The relevant field is ```currentChat```. 
+* The ```main``` method uses an integer argument as a port number in order to start a web server. The ```handleRequest``` method uses a URI argument to create a chat. The relevant class field is ```currentChat```. 
 * In this request, ```currentChat``` adds ```currentUser``` and ```currentContent``` to itself separated by a colon and line break character. So, ```currentChat``` becomes ```Duolingo: Have you finished your Spanish lesson today?\n```. 
 
 <br />
@@ -99,8 +99,8 @@ class ChatServer{
 <br />
 
 * Since the web server is already running, only the ```handleRequest``` method in the ```Handler``` class was called in this case. 
-* The ```main``` method uses an integer argument as a port number in order to start a web server. The ```handleRequest``` method uses a URI argument to create a chat. The relevant fields are ```currentChat```, ```currentUser```, and ```currentContent```. 
-* Similar to the previous use case, ```currentChat``` adds ```currentUser``` and ```currentContent``` to itself separated by a colon and line break character. So, ```currentChat``` becomes ```Ferrari: No, I have been doing my the CSE 15L lab report instead.\n```.  
+* The ```handleRequest``` method uses a URI argument to create a chat. The relevant class field is ```currentChat```.
+* Similar to the previous use case, ```currentChat``` adds ```currentUser``` and ```currentContent``` to itself separated by a colon and line break character. So, ```currentChat``` becomes ````Duolingo: Have you finished your Spanish lesson today?\n Ferrari: No, I have been doing my the CSE 15L lab report instead.\n```.  
 
 ## Part 2: SSH
 <br />
