@@ -29,8 +29,10 @@ class Handler implements URLHandler {
             return currentChat;
         } 
         else if (url.getPath().contains("/add-message")){
-            if (url.getQuery().contains("&") == false || url.getQuery().contains("=") == false){
-                return("Please use the format: /add-message?s=<String>&user=<user>");
+            if (url.getQuery().contains("&") == false ||
+                url.getQuery().contains("=") == false){
+                return("Please use the format:
+                /add-message?s=<String>&user=<user>");
             }
             String[] parameters = url.getQuery().split("&");
             String[] parameters1 = parameters[0].split("=");
@@ -42,7 +44,8 @@ class Handler implements URLHandler {
                 currentUser = parameters2[1];
             }
             if (currentUser != null){
-                currentChat = currentChat + currentUser + ": " + currentContent + "\n";
+                currentChat = currentChat + currentUser + ": " +
+                currentContent + "\n";
             }
             else{
                 return("Please enter a username.");
@@ -60,7 +63,8 @@ class Handler implements URLHandler {
 class ChatServer{
     public static void main(String[] args)throws IOException{
         if(args.length == 0){
-            System.out.println("Missing port number! Try any number between 1024 to 49151");
+            System.out.println("Missing port number! Try any number
+            between 1024 to 49151");
             return;
         }
 
