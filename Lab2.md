@@ -89,7 +89,7 @@ class ChatServer{
 ![Ferrari Responds](https://b2bomber2.github.io/cse15l-lab-reports/Photos/lab2-1.png)
 <br />
 
-* The ```main``` method in the ```ChatServer``` class was called when the server started. After the path was inputted, the ```handleRequest``` method in the ```Handler``` class was called. 
+* Since the web server is already running, only the ```handleRequest``` method in the ```Handler``` class was called in this case. 
 * The ```main``` method uses an integer argument as a port number in order to start a web server. The ```handleRequest``` method uses a URI argument to create a chat. The relevant fields are ```currentChat```, ```currentUser```, and ```currentContent```. 
 * Similar to the previous use case, ```currentChat``` adds ```currentUser``` and ```currentContent``` to itself separated by a colon and line break character. So, ```currentChat``` becomes ```Ferrari: No, I have been doing my the CSE 15L lab report instead.\n```.  
 
