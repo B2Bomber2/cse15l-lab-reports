@@ -51,7 +51,7 @@ class Handler implements URLHandler {
                 return(
                 "Please use the format: /add-message?s=<String>&user=<user>");
             }
-            if (currentUser != null && currentContent != " "){
+            if (currentUser != null && currentContent != null){
                 currentChat = currentChat + currentUser + ": " +
                 currentContent + "\n";
             }
