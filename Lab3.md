@@ -18,3 +18,6 @@ The bug, as the before-and-after code change required to fix it (as two code blo
 Briefly describe why the fix addresses the issue.
 
 ## Part 2: Researching Commands
+<br />
+For this section, I will choose to research the grep command. 
+<br />
