@@ -31,8 +31,8 @@ class Handler implements URLHandler {
         else if (url.getPath().contains("/add-message")){
             if (url.getQuery().contains("&") == false ||
                 url.getQuery().contains("=") == false){
-                return("Please use the format:
-                /add-message?s=<String>&user=<user>");
+                return(
+                "Please use the format: /add-message?s=<String>&user=<user>");
             }
             String[] parameters = url.getQuery().split("&");
             String[] parameters1 = parameters[0].split("=");
@@ -40,15 +40,24 @@ class Handler implements URLHandler {
             if (parameters1[0].equals("s")) {
                 currentContent = parameters1[1];
             }
+            else if(parameters1[0].equals("s") == false){
+                return(
+                "Please use the format: /add-message?s=<String>&user=<user>");
+            }
             if (parameters2[0].equals("user")){
                 currentUser = parameters2[1];
             }
-            if (currentUser != null){
+            else if(parameters2[0].equals("user") == false){
+                return(
+                "Please use the format: /add-message?s=<String>&user=<user>");
+            }
+            if (currentUser != null && currentContent != " "){
                 currentChat = currentChat + currentUser + ": " +
                 currentContent + "\n";
             }
             else{
-                return("Please enter a username.");
+                return(
+                "Please use the format: /add-message?s=<String>&user=<user>");
             }
             currentContent = " ";
             currentUser = null;
@@ -63,8 +72,8 @@ class Handler implements URLHandler {
 class ChatServer{
     public static void main(String[] args)throws IOException{
         if(args.length == 0){
-            System.out.println("Missing port number! Try any number
-            between 1024 to 49151");
+            System.out.println(
+            "Missing port number! Try any number between 1024 to 49151");
             return;
         }
 
