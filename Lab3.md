@@ -63,5 +63,8 @@ static int[] reversed(int[] arr) {
 
 ## Part 2: Researching Commands
 <br />
-For this section, I will choose to research the ```grep``` command. 
-<br />
+For this section, I will choose to research the ```grep``` command. I used the command ```man grep``` and the following shows the result. 
+
+![man grep output](https://b2bomber2.github.io/cse15l-lab-reports/Photos/lab3-1.png)
+
+From this list, I will be choosing 
