@@ -51,7 +51,7 @@ static int[] reversed(int[] arr) {
   return arr;
 }
 ```
-The code body of the loop needs to be changed. Instead of ```arr[i] = newArray[arr.length - i - 1];```, the correct code is ```newArray[arr.length - i - 1] = arr[i];```. Afterward, ```newArray``` needs to be returned because a new array is the expected output. 
+The code body of the loop needs to be changed. Since the elements of ```arr``` need to be transferred to ```newArray```, the correct code for the loop body is ```newArray[arr.length - i - 1] = arr[i];```. Afterward, ```newArray``` needs to be returned because a new array is the expected output. 
 ```
 static int[] reversed(int[] arr) {
   int[] newArray = new int[arr.length];
