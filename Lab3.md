@@ -10,12 +10,56 @@ Lab 3 encompassed testing and debugging; command line manipulation, especially f
 ## Part 1: Bugs
 <br />
 
-Provide:
-A failure-inducing input for the buggy program, as a JUnit test and any associated code (write it as a code block in Markdown)
-An input that doesn't induce a failure, as a JUnit test and any associated code (write it as a code block in Markdown)
-The symptom, as the output of running the tests (provide it as a screenshot of running JUnit with at least the two inputs above)
-The bug, as the before-and-after code change required to fix it (as two code blocks in Markdown)
-Briefly describe why the fix addresses the issue.
+The following shows the process of debugging a method in Java by utilizing the JUnit framework. 
+The following buggy method is being tested. 
+```
+static int[] reversed(int[] arr) {
+  int[] newArray = new int[arr.length];
+  for(int i = 0; i < arr.length; i += 1) {
+    arr[i] = newArray[arr.length - i - 1];
+  }
+  return arr;
+}
+```
+*A failure-inducing input for the buggy program, as a JUnit test is shown below.
+```
+@Test
+public void testReversedFail() {
+  int[] input1 = {3,4};
+  assertArrayEquals(new int[]{4,3}, ArrayExamples.reversed(input1));
+}
+```
+*An input that does not induce a failure, as a JUnit test is shown below. 
+```
+public void testReversedPass() {
+  int[] input1 = { };
+  assertArrayEquals(new int[]{ }, ArrayExamples.reversed(input1));
+}
+```
+*The symptom, as the output of running the tests, is shown below. 
+
+
+*The bug, as the before-and-after code change required to fix it (as two code blocks in Markdown)
+Briefly describe why the fix addresses the issue. 
+```
+static int[] reversed(int[] arr) {
+  int[] newArray = new int[arr.length];
+  for(int i = 0; i < arr.length; i += 1) {
+    arr[i] = newArray[arr.length - i - 1];
+  }
+  return arr;
+}
+```
+The code body of the loop needs to be changed. Instead of ```arr[i] = newArray[arr.length - i - 1];```, the correct code is ```newArray[arr.length - i - 1] = arr[i];```. 
+```
+static int[] reversed(int[] arr) {
+  int[] newArray = new int[arr.length];
+  for(int i = 0; i < arr.length; i += 1) {
+    arr[i] = newArray[arr.length - i - 1];
+  }
+  return arr;
+}
+```
 
 ## Part 2: Researching Commands
 <br />
