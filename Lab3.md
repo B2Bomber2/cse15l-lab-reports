@@ -29,18 +29,18 @@ public void testReversedFail() {
   assertArrayEquals(new int[]{4,3}, ArrayExamples.reversed(input1));
 }
 ```
-*An input that does not induce a failure, as a JUnit test is shown below. 
+* An input that does not induce a failure, as a JUnit test is shown below. 
 ```
 public void testReversedPass() {
   int[] input1 = { };
   assertArrayEquals(new int[]{ }, ArrayExamples.reversed(input1));
 }
 ```
-*The symptom, as the output of running the tests, is shown below. 
+* The symptom, as the output of running the tests, is shown below. 
 
 ![JUnit terminal output](https://b2bomber2.github.io/cse15l-lab-reports/Photos/lab3-0.png)
 
-*The bug, as the before-and-after code change required to fix it, is described below. 
+* The bug, as the before-and-after code change required to fix it, is described below. 
 ```
 static int[] reversed(int[] arr) {
   int[] newArray = new int[arr.length];
@@ -50,7 +50,7 @@ static int[] reversed(int[] arr) {
   return arr;
 }
 ```
-The code body of the loop needs to be changed. Since the elements of ```arr``` need to be transferred to ```newArray```, the correct code for the loop body is ```newArray[arr.length - i - 1] = arr[i];```. Afterward, ```newArray``` needs to be returned because a new array is the expected output. 
+The code body of the loop needs to be changed. Since the elements of ```arr``` need to be transferred to ```newArray```, the correct code for the loop body is ```newArray[arr.length - i - 1] = arr[i];```. Afterward, ```newArray``` needs to be returned because a new array is the expected output. The revised code below passes both of the previous test cases. 
 ```
 static int[] reversed(int[] arr) {
   int[] newArray = new int[arr.length];
