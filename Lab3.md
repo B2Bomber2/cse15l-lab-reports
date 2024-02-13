@@ -40,8 +40,7 @@ public void testReversedPass() {
 
 ![JUnit terminal output](https://b2bomber2.github.io/cse15l-lab-reports/Photos/lab3-0.png)
 
-*The bug, as the before-and-after code change required to fix it (as two code blocks in Markdown)
-Briefly describe why the fix addresses the issue. 
+*The bug, as the before-and-after code change required to fix it, is described below. 
 ```
 static int[] reversed(int[] arr) {
   int[] newArray = new int[arr.length];
