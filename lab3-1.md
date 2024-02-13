@@ -332,4 +332,11 @@ DESCRIPTION
 macOS 14.2                     November 10, 2021                    macOS 14.2
 ```
 
-From this list, I will be choosing ```-H```, ```-o```, ```-q```
+<br />
+
+From this list, I will be choosing ```-f```, ```-H```, ```-o```, and ```-q```. 
+
+<br /> 
+
+Here are 2 examples of the ```-f``` command-line option for the ```grep``` command. 
+
