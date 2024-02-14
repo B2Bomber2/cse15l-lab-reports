@@ -63,7 +63,7 @@ static int[] reversed(int[] arr) {
 
 ## Part 2: Researching Commands
 <br />
-For this section, I will choose to research the ```grep``` command. I used the command ```man grep``` and the following shows the resulting output. 
+For this section, I will choose to research the ```grep``` command. I used the command ```man grep``` and the following shows the resulting output. ```grep``` stands for global regular expression print and it returns text patterns as the output. 
 ```
 GREP(1)                     General Commands Manual                    GREP(1)
 
@@ -334,9 +334,32 @@ macOS 14.2                     November 10, 2021                    macOS 14.2
 
 <br />
 
-From this list, I will be choosing ```-f```, ```-H```, ```-o```, and ```-q```. 
+From this list, I will be choosing ```-H```, ```-o```, ```-q```, and ```-v```. 
 
 <br /> 
 
-Here are 2 examples of the ```-f``` command-line option for the ```grep``` command. 
+Here are 2 examples of the ```-H``` command-line option for the ```grep``` command. 
+* ```
+ferrariguan@HP-Laptop-15-MacOS biomed % grep -H summary ar328.txt  
+ar328.txt:        In summary, males who have hypogonadism, regardless of
+```
+* ```
+ferrariguan@HP-Laptop-15-MacOS biomed % grep -H mouse bcr45.txt
+bcr45.txt:        BRCA1 expression patterns in mouse
+bcr45.txt:        homozygous, BRCA1-deleted mouse models have resulted in
+bcr45.txt:        5colony-forming units/ml on mouse cells (A9). Log phase
+bcr45.txt:        one side of each mouse and NEO cells in matrigel on the
+bcr45.txt:        occur in the mouse ovary (granulosa and thecal cells of
+bcr45.txt:        mouse NIH3T3 cells [ 50]. In addition, increased
+bcr45.txt:        BRCA1 transfected into mouse 3T3
+```
+
+<br />
+
+The ```-H``` command-line option ensures that grep always prints the filename header with the output lines. So, as shown in the examples above, every line of the output starts with the file name and extension. 
+
+<br />
+
+Here are 2 examples of the ```-o``` command-line option for the ```grep``` command. 
+
 
