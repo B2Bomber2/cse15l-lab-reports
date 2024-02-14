@@ -425,6 +425,8 @@ ferrariguan@HP-Laptop-15-MacOS biomed % grep -q machine bcr45.txt
 
 The ```-q``` command-line option ensures that ```grep``` does not print its normal output. So, as shown in the examples above, nothing was printed due to the ```-q``` command-line option silencing the output. 
 
+<br />
+
 Here are 2 examples of the ```-v``` command-line option for the ```grep``` command. 
 * ```
 ferrariguan@HP-Laptop-15-MacOS biomed % grep -v the ar328.txt
@@ -1300,4 +1302,4 @@ ferrariguan@HP-Laptop-15-MacOS biomed % grep -v cell bcr45.txt
 
 <br />
 
-The ```-v``` command-line option f
+The ```-v``` command-line option ensures that ```grep``` does not print anything that matches the argument. So, as shown in the examples above, everything that did not match the argument was printed as the output. 
