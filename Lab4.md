@@ -19,26 +19,32 @@ Run the tests, demonstrating that they now succeed <br />
 Commit and push the resulting change to your GitHub account (you can pick any commit message!) <br />
 
 <br />
-![Log in to ieng6](https://b2bomber2.github.io/cse15l-lab-reports/Photos/lab4-1.png)
+![Log in to ieng6](https://b2bomber2.github.io/cse15l-lab-reports/Photos/lab4-1.png) <br />
 <br />
 Keys pressed: ```ssh <space> f1guan@ieng6-202.ucsd.edu <enter> cs15lwi24 <enter>``` <br />
 Explanation: ```ssh``` enters the secure shell. Since the target server is ```ieng6```, the argument is ```f1guan@ieng6-202.ucsd.edu```. ```f1guan``` is my username, so it will differ depending on who logs into ```ieng6```. Lastly, ```cs15lwi24``` is used to enter the winter 2024 CSE 15L course, which will differ depending on the course. 
 <br />
 
-![Cloning my fork of the repository from my GitHub account using the SSH URL](https://b2bomber2.github.io/cse15l-lab-reports/Photos/lab4-2.png)
+![Cloning my fork of the repository from my GitHub account using the SSH URL](https://b2bomber2.github.io/cse15l-lab-reports/Photos/lab4-2.png) <br/>
 Keys pressed: ```git <space> clone <space> git@github.com:B2Bomber2/lab7.git <enter>``` <br />
 Explanation: ```git clone``` clones a repository. The argument is ```git@github.com:B2Bomber2/lab7.git```, which is my repository. So, it will differ depending on which repository is used. 
 <br />
 
-![Run the tests, demonstrating that they fail](https://b2bomber2.github.io/cse15l-lab-reports/Photos/lab4-3.png)
+![Run the tests, demonstrating that they fail](https://b2bomber2.github.io/cse15l-lab-reports/Photos/lab4-3.png) <br />
 Keys pressed: ```cd <space> la <tab> <enter> bash <space> te <tab> <enter>``` <br />
 Explanation: ```cd``` is for changing directories and ```<tab>``` is used to autofill ```la``` to ```lab7/```. ```bash``` is used to run shell scripts. Similar to the previous usage of ```<tab>```, ```te``` is auto-filled to ```test.sh```. The ```test.sh``` shell script runs the Java testers on the ```ListExamples``` class. 
 <br />
 
-![Edit the code file to fix the failing test](https://b2bomber2.github.io/cse15l-lab-reports/Photos/lab4-4.png)
+![Edit the code file to fix the failing test](https://b2bomber2.github.io/cse15l-lab-reports/Photos/lab4-4.png) <br />
 Keys pressed: ```vim <space> Li <tab> .java <enter> 43j we r2 :x <enter>``` <br />
 Explanation: The ```vim``` command opens the Vim text editor. The argument is ```ListExamples.java``` for this case, but will differ depending on the file. As mentioned in the previous explanation, ```<tab>``` auto-fills ```Li <tab>``` to ```ListExamples```. 
 <br />
 
-![Run the tests, demonstrating that they now succeed](https://b2bomber2.github.io/cse15l-lab-reports/Photos/lab4-5.png)
-Keys pressed:
+![Run the tests, demonstrating that they now succeed](https://b2bomber2.github.io/cse15l-lab-reports/Photos/lab4-5.png) <br />
+Keys pressed: ```<up> <up> <enter>``` <br />
+Explanation: The up arrow key moves to the previous command. Since the command that executed the ```test.sh``` shell script was used 2 steps ago, the up arrow key was pressed twice. 
+<br />
+
+![Commit and push the resulting change to your GitHub account](https://b2bomber2.github.io/cse15l-lab-reports/Photos/lab4-6.png) <br />
+Keys pressed: ```git <space> add <space> . <enter> git <space> commit <space> -m <space> "``` <br />
+Explanation: 
