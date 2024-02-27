@@ -33,3 +33,12 @@ Explanation: ```git clone``` clones a repository. The argument is ```git@github.
 ![Run the tests, demonstrating that they fail](https://b2bomber2.github.io/cse15l-lab-reports/Photos/lab4-3.png)
 Keys pressed: ```cd <space> la <tab> <enter> bash <space> te <tab> <enter>``` <br />
 Explanation: ```cd``` is for changing directories and ```<tab>``` is used to autofill ```la``` to ```lab7/```. ```bash``` is used to run shell scripts. Similar to the previous usage of ```<tab>```, ```te``` is auto-filled to ```test.sh```. The ```test.sh``` shell script runs the Java testers on the ```ListExamples``` class. 
+<br />
+
+![Edit the code file to fix the failing test](https://b2bomber2.github.io/cse15l-lab-reports/Photos/lab4-4.png)
+Keys pressed: ```vim <space> Li <tab> .java <enter> 43j we r2 :x <enter>``` <br />
+Explanation: The ```vim``` command opens the Vim text editor. The argument is ```ListExamples.java``` for this case, but will differ depending on the file. As mentioned in the previous explanation, ```<tab>``` auto-fills ```Li <tab>``` to ```ListExamples```. 
+<br />
+
+![Run the tests, demonstrating that they now succeed](https://b2bomber2.github.io/cse15l-lab-reports/Photos/lab4-5.png)
+Keys pressed:
