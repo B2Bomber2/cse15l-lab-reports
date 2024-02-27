@@ -27,5 +27,9 @@ Explanation: ```ssh``` enters the secure shell. Since the target server is ```ie
 
 ![Cloning my fork of the repository from my GitHub account using the SSH URL](https://b2bomber2.github.io/cse15l-lab-reports/Photos/lab4-2.png)
 Keys pressed: ```git <space> clone <space> git@github.com:B2Bomber2/lab7.git <enter>``` <br />
-Explanation: ```git <space> clone``` clones a repository. The argument is ```git@github.com:B2Bomber2/lab7.git```, which is my repository. So, it will differ depending on which repository is used. 
+Explanation: ```git clone``` clones a repository. The argument is ```git@github.com:B2Bomber2/lab7.git```, which is my repository. So, it will differ depending on which repository is used. 
 <br />
+
+![Run the tests, demonstrating that they fail](https://b2bomber2.github.io/cse15l-lab-reports/Photos/lab4-3.png)
+Keys pressed: ```cd <space> la <tab> <enter> bash <space> te <tab> <enter>``` <br />
+Explanation: ```cd`` is for changing directories and ```<tab>``` is used to autofill ```la``` to ```lab7/```. ```bash``` is used to run shell scripts. Similar to the previous usage of ```<tab>```, ```te``` is auto-filled to ```test.sh```. The ```test.sh``` shell script runs the Java testers on the ```ListExamples``` class. 
