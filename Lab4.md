@@ -32,4 +32,4 @@ Explanation: ```git clone``` clones a repository. The argument is ```git@github.
 
 ![Run the tests, demonstrating that they fail](https://b2bomber2.github.io/cse15l-lab-reports/Photos/lab4-3.png)
 Keys pressed: ```cd <space> la <tab> <enter> bash <space> te <tab> <enter>``` <br />
-Explanation: ```cd`` is for changing directories and ```<tab>``` is used to autofill ```la``` to ```lab7/```. ```bash``` is used to run shell scripts. Similar to the previous usage of ```<tab>```, ```te``` is auto-filled to ```test.sh```. The ```test.sh``` shell script runs the Java testers on the ```ListExamples``` class. 
+Explanation: ```cd``` is for changing directories and ```<tab>``` is used to autofill ```la``` to ```lab7/```. ```bash``` is used to run shell scripts. Similar to the previous usage of ```<tab>```, ```te``` is auto-filled to ```test.sh```. The ```test.sh``` shell script runs the Java testers on the ```ListExamples``` class. 
