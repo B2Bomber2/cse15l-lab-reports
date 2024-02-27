@@ -11,9 +11,15 @@ Lab 4 introduced Vim, a text editor inside the terminal. Since Vim is built into
 
 <br />
 Task: <br />
-Log into ieng6 <br />
+Log into ```ieng6``` <br />
 Clone your fork of the repository from your GitHub account (using the SSH URL) <br />
 Run the tests, demonstrating that they fail <br />
 Edit the code file to fix the failing test <br />
 Run the tests, demonstrating that they now succeed <br />
 Commit and push the resulting change to your GitHub account (you can pick any commit message!) <br />
+
+<br />
+![Log in to ieng6](https://b2bomber2.github.io/cse15l-lab-reports/Photos/lab4-1.png)
+<br />
+Keys pressed: ```ssh <space> f1guan@ieng6-202.ucsd.edu <enter> cs15lwi24 <enter>``` <br />
+Explanation: ```ssh``` enters the secure shell. Since the target server is ```ieng6```, the argument is ```f1guan@ieng6-202.ucsd.edu```. ```f1guan``` is my username, so it will differ depending on who logs into ```ieng6```. 
