@@ -46,5 +46,5 @@ Explanation: The up arrow key moves to the previous command. Since the command t
 <br />
 
 ![Commit and push the resulting change to your GitHub account](https://b2bomber2.github.io/cse15l-lab-reports/Photos/lab4-6.png) <br />
-Keys pressed: ```git <space> add <space> . <enter> git <space> commit <space> -m <space> "``` <br />
+Keys pressed: ```git <space> add <space> . <enter> git <space> commit <space> -m <space> "fixed the index error" <enter> git <space> push <enter>``` <br />
 Explanation: 
