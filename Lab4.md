@@ -10,6 +10,7 @@ Lab 4 introduced Vim, a text editor inside the terminal. Since Vim is built into
 ## Part 1: Editing from the command line: ```vim```
 
 <br />
+The task for the lab session this week is shown below. <br />
 Task: <br />
 Log into ```ieng6``` <br />
 Clone your fork of the repository from your GitHub account (using the SSH URL) <br />
