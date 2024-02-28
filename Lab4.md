@@ -41,7 +41,7 @@ Explanation: ```cd``` is for changing directories and ```<tab>``` is used to aut
 ![Edit the code file to fix the failing test](https://b2bomber2.github.io/cse15l-lab-reports/Photos/lab4-4.png) <br />
 Keys pressed: ```vim <space> Li <tab> .java <enter>``` <br />
 ```43j we r2 :x <enter>``` <br />
-Explanation: The ```vim``` command opens the Vim text editor. The argument is ```ListExamples.java``` for this case, but will differ depending on the file. As mentioned in the previous explanation, ```<tab>``` auto-fills ```Li <tab>``` to ```ListExamples```. 
+Explanation: The ```vim``` command opens the Vim text editor. The argument is ```ListExamples.java``` for this case, but will differ depending on the file. As mentioned in the previous explanation, ```<tab>``` auto-fills ```Li <tab>``` to ```ListExamples```. The commands inputted in the Vim window are ```43j we r2 :x <enter>```; ```43j``` moves the cursor down 43 lines, ```we``` moves the cursor to the end of the next word, ```r2``` replaces the character that the cursor is on with 2, and ```:x``` saves and exits the Vim window. 
 <br />
 
 ![Run the tests, demonstrating that they now succeed](https://b2bomber2.github.io/cse15l-lab-reports/Photos/lab4-5.png) <br />
