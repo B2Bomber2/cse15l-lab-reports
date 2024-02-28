@@ -21,7 +21,8 @@ Commit and push the resulting change to your GitHub account (you can pick any co
 <br />
 ![Log in to ieng6](https://b2bomber2.github.io/cse15l-lab-reports/Photos/lab4-1.png) <br />
 <br />
-Keys pressed: ```ssh <space> f1guan@ieng6-202.ucsd.edu <enter> cs15lwi24 <enter>``` <br />
+Keys pressed: ```ssh <space> f1guan@ieng6-202.ucsd.edu <enter>``` <br />
+```cs15lwi24 <enter>``` <br />
 Explanation: ```ssh``` enters the secure shell. Since the target server is ```ieng6```, the argument is ```f1guan@ieng6-202.ucsd.edu```. ```f1guan``` is my username, so it will differ depending on who logs into ```ieng6```. Lastly, ```cs15lwi24``` is used to enter the winter 2024 CSE 15L course, which will differ depending on the course. 
 <br />
 
@@ -31,12 +32,14 @@ Explanation: ```git clone``` clones a repository. The argument is ```git@github.
 <br />
 
 ![Run the tests, demonstrating that they fail](https://b2bomber2.github.io/cse15l-lab-reports/Photos/lab4-3.png) <br />
-Keys pressed: ```cd <space> la <tab> <enter> bash <space> te <tab> <enter>``` <br />
+Keys pressed: ```cd <space> la <tab> <enter>``` <br />
+```bash <space> te <tab> <enter>``` <br />
 Explanation: ```cd``` is for changing directories and ```<tab>``` is used to autofill ```la``` to ```lab7/```. ```bash``` is used to run shell scripts. Similar to the previous usage of ```<tab>```, ```te``` is auto-filled to ```test.sh```. The ```test.sh``` shell script runs the Java testers on the ```ListExamples``` class. 
 <br />
 
 ![Edit the code file to fix the failing test](https://b2bomber2.github.io/cse15l-lab-reports/Photos/lab4-4.png) <br />
-Keys pressed: ```vim <space> Li <tab> .java <enter> 43j we r2 :x <enter>``` <br />
+Keys pressed: ```vim <space> Li <tab> .java <enter>``` <br />
+```43j we r2 :x <enter>``` <br />
 Explanation: The ```vim``` command opens the Vim text editor. The argument is ```ListExamples.java``` for this case, but will differ depending on the file. As mentioned in the previous explanation, ```<tab>``` auto-fills ```Li <tab>``` to ```ListExamples```. 
 <br />
 
@@ -46,5 +49,7 @@ Explanation: The up arrow key moves to the previous command. Since the command t
 <br />
 
 ![Commit and push the resulting change to your GitHub account](https://b2bomber2.github.io/cse15l-lab-reports/Photos/lab4-6.png) <br />
-Keys pressed: ```git <space> add <space> . <enter> git <space> commit <space> -m <space> "fixed the index error" <enter> git <space> push <enter>``` <br />
-Explanation: 
+Keys pressed: ```git <space> add <space> . <enter>``` <br />
+```git <space> commit <space> -m <space> "fixed the index error" <enter>``` <br />
+```git <space> push <enter>``` <br />
+Explanation: The ```git add``` command adds the changes and ```git commit``` copies the change. The ```-m``` command-line option allows users to add a comment. In this case, the comment is ```"fixed the index error"```. Lastly, ```git push``` pushes the copy of changes into GitHub. 
