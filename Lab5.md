@@ -9,11 +9,26 @@ The main topic of this lab is debugging. This includes using Bash scripts to aut
 ## Part 1 - Debugging Scenario 
 This section will feature 
 <br /> 
-User: Anonymous Student
+Anonymous Student:
 <br />
 I got this message when I put my code into the autograder. I think it is because
+<br />
 ![Edit the code file to fix the failing test](https://b2bomber2.github.io/cse15l-lab-reports/Photos/lab4-4.png) <br />
 
-User: Teaching Assistant
+Teaching Assistant:
 <br />
 The issue is with 
+try 
+
+<br />
+
+Anonymous Student: 
+<br />
+Here is what I got after doing that
+![Edit the code file to fix the failing test](https://b2bomber2.github.io/cse15l-lab-reports/Photos/lab4-4.png) <br />
+
+Teaching Assistant: 
+<br />
+Now, what do you think would happen if
+
+<br />
