@@ -9,3 +9,6 @@ The main topic of this lab is debugging. This includes using Bash scripts to aut
 ## Part 1 - Debugging Scenario 
 
 <br /> 
+User: Anonymous Student
+<br />
+
