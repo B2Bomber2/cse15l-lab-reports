@@ -32,3 +32,8 @@ Teaching Assistant:
 Now, what do you think would happen if
 
 <br />
+
+## Part 2 – Reflection 
+
+<br />
+
