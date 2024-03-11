@@ -11,7 +11,7 @@ This section will feature
 <br /> 
 Anonymous Student:
 <br />
-I got this message when I put my code into the autograder. I think it is because
+I got this message when I put my code into the auto grader. I think it is because
 <br />
 ![Edit the code file to fix the failing test](https://b2bomber2.github.io/cse15l-lab-reports/Photos/lab4-4.png) <br />
 
@@ -36,4 +36,4 @@ Now, what do you think would happen if
 ## Part 2 – Reflection 
 
 <br />
-
+I found out that professors use bash scripts to test student submissions on GradeScope. I also found out that Java has a built in debugger that can run through code line by line. I thought that this process could be much more thorough than trying to figure out why a test case failed. 
