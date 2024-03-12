@@ -36,4 +36,4 @@ Now, what do you think would happen if
 ## Part 2 – Reflection 
 
 <br />
-I found out that professors use bash scripts to test student submissions on GradeScope. I also found out that Java has a built in debugger that can run through code line by line. I thought that this process could be much more thorough than trying to figure out why a test case failed. 
+I found out that professors use bash scripts to test student submissions on GradeScope. I also found out that Java has a built-in debugger that can run through code line by line. I thought that this process could be much more thorough than trying to figure out why a test case failed. Lastly, through attending lab sections, I learned how to appear like a hacker to my humanities major friends. 
