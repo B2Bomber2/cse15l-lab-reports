@@ -10,7 +10,7 @@ The main topic of this lab is debugging. This includes using Bash scripts to aut
 This section will feature a debugging scenario between a teaching assistant and a student. 
 <br />
 #### Anonymous Student:
-I got this message when I put my code into the auto-grader. I ran ```bash grade.sh https://github.com/ucsd-cse15l-f22/list-methods-nested```, but it says that the file is not found. I submitted my PA with a file called ```ListExamples.java```, so I don't know why the tester is not working. 
+I got this message when I put my code into the auto-grader. I ran ```bash grade.sh https://github.com/ucsd-cse15l-f22/list-methods-nested```, but it says that the file is not found. I submitted my PA with a file called ```ListExamples.java```, so I don't know why the tester is not working. Maybe it has something to do with my code not making a list correctly. 
 <br />
 ![The student's error](https://b2bomber2.github.io/cse15l-lab-reports/Photos/lab5-1.png) <br />
 
