@@ -17,7 +17,7 @@ I got this message when I put my code into the auto-grader. I ran ```bash grade.
 
 Teaching Assistant:
 <br />
-The issue is with 
+Show me your working directory by using the ```pwd``` command. 
 try 
 
 <br />
