@@ -23,7 +23,7 @@ Show me your working directory by using the ```pwd``` command. Also, show me you
 Anonymous Student: 
 <br />
 Here is what I got after doing that:
-![Edit the code file to fix the failing test](https://b2bomber2.github.io/cse15l-lab-reports/Photos/lab4-4.png) <br />
+```/home/linux/ieng6/cs15lwi24/f1guan/list-examples-grader``` <br />
 Here is my code for the PA: 
 ```
 import java.util.ArrayList;
