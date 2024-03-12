@@ -11,7 +11,7 @@ This section will feature
 <br /> 
 Anonymous Student:
 <br />
-I got this message when I put my code into the auto-grader. I ran ```bash grade.sh https://github.com/ucsd-cse15l-f22/list-methods-nested```, but it says that the file is not found, but I submitted my PA.
+I got this message when I put my code into the auto-grader. I ran ```bash grade.sh https://github.com/ucsd-cse15l-f22/list-methods-nested```, but it says that the file is not found. I submitted my PA with a file called ```ListExamples.java```.
 <br />
 ![The student's error](https://b2bomber2.github.io/cse15l-lab-reports/Photos/lab5-1.png) <br />
 
@@ -87,9 +87,9 @@ Anonymous Student:
 <br />
 The file structure is: 
 ```
-|student-submission
-|------pa1
-|-----------ListExamples.java
+|-- student-submission
+|---- pa1
+|------ ListExamples.java
 ```
 <br />
 
