@@ -83,6 +83,20 @@ Teaching Assistant:
 The code looks good. Can you show me the file structure for your submission? 
 <br />
 
+Anonymous Student: 
+<br />
+The file structure is: 
+```
+|student-submission
+|------pa1
+|-----------ListExamples.java
+```
+<br />
+
+Teaching Assistant: 
+I see the issue now, try moving your Java file out of the ```pa1``` directory. Use the ```cp``` command to copy your Java file into the ```student-submission```. Then, remove the ```pa1``` directory using the ```rm``` command. 
+
+
 
 
 ## Part 2 – Reflection 
