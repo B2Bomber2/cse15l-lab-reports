@@ -9,6 +9,7 @@ The main topic of this lab is debugging. This includes using Bash scripts to aut
 
 This section will feature a debugging scenario between a teaching assistant and a student. 
 <br />
+
 #### Anonymous Student:
 I got this message when I put my code into the auto-grader. I ran ```bash grade.sh https://github.com/ucsd-cse15l-f22/list-methods-nested```, but it says that the file is not found. I submitted my PA with a file called ```ListExamples.java```, so I don't know why the tester is not working. Maybe it has something to do with my code not making a list correctly. 
 <br />
@@ -80,7 +81,6 @@ The code looks good. Can you show me the file structure for your submission?
 <br />
 
 #### Anonymous Student: 
-<br />
 The file structure is: 
 ```
 |-- student-submission
@@ -99,4 +99,4 @@ It works now, thank you!
 
 ## Part 2 – Reflection 
 
-I found out that professors use bash scripts to test student submissions on GradeScope. I also found out that Java has a built-in debugger that can run through code line by line. I thought that this process could be much more thorough than trying to figure out why a test case failed. Lastly, through attending lab sections, I learned how to appear like a hacker to my humanities major friends. 
+I found out that professors use bash scripts to test student submissions on GradeScope. I can now use Bash scripts to check and verify software in an educational environment. I also found out that Java has a built-in debugger that can run through code line by line. I thought that the JDB could be much more thorough than trying to figure out why a test case failed. Lastly, by attending lab sections, I learned how to appear like a hacker to my humanities major friends. 
