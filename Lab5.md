@@ -76,11 +76,14 @@ class ListExamples {
 
 }
 ```
+<br />
+
 Teaching Assistant: 
 <br />
-Now, what do you think would happen if
-
+The code looks good. Can you show me the file structure for your submission? 
 <br />
+
+
 
 ## Part 2 – Reflection 
 
