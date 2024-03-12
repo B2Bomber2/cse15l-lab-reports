@@ -94,6 +94,7 @@ The file structure is:
 <br />
 
 Teaching Assistant: 
+<br />
 I see the issue now, try moving your Java file out of the ```pa1``` directory. Use the ```cp``` command to copy your Java file into the ```student-submission```. Then, remove the ```pa1``` directory using the ```rm``` command. 
 <br />
 
